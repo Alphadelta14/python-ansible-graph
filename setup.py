@@ -10,4 +10,5 @@ setup(name='ansible-graph',
       author_email='alpha@projectpokemon.org',
       license='MIT',
       packages=['ansible', 'ansible.graph'],
+      scripts=['bin/ansible-graph'],
       zip_safe=True)
